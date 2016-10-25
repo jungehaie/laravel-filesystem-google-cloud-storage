@@ -1,5 +1,5 @@
 {
-  "name": "jungehaie/laravel-flysyste-google-cloud-storage",
+  "name": "jungehaie/laravel-filesystem-google-cloud-storage",
   "description": "A Laravel Flysystem implementation for the Google Cloud Storage via a S3Client.",
   "keywords": [
     "l5",
