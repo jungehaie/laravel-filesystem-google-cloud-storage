@@ -1,0 +1,41 @@
+{
+  "name": "jungehaie/laravel-flysyste-google-cloud-storage",
+  "description": "A Laravel Flysystem implementation for the Google Cloud Storage via a S3Client.",
+  "keywords": [
+    "l5",
+    "laravel",
+    "laravel 5.3",
+    "lumen",
+    "filesystem",
+    "flysystem",
+    "aws",
+    "s3",
+    "google cloud storage",
+    "gce",
+    "junge haie"
+  ],
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stanislav Goldmann",
+      "email": "goldmann@jungehaie.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "illuminate/support": "~5.3",
+    "illuminate/filesystem": "~5.3",
+    "league/flysystem-aws-s3-v3": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0",
+    "mockery/mockery": "^0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "JungeHaie\\GoogleCloudStorage\\": "src/"
+    }
+  }
+}
